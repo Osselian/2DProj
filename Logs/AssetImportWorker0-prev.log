@@ -15,11 +15,11 @@ D:/Repos/2dProj2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57785
+58297
 Successfully changed project path to: D:/Repos/2dProj2
 D:/Repos/2dProj2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.97 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 47.19 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path D:/Programs/Unity 2020/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,692 +35,108 @@ Initialize mono
 Mono path[0] = 'D:/Programs/Unity 2020/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Programs/Unity 2020/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Programs/Unity 2020/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Programs/Unity 2020/2020.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Programs/Unity 2020/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001527 seconds.
+Registered in 0.001598 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 47.85 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 46.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.122 seconds
+- Completed reload, in  1.125 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001127 seconds.
+Registered in 0.000945 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 44.86 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 49.88 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.060 seconds
+- Completed reload, in  1.083 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.0 MB.
 System memory in use after: 85.1 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2257.
-Total: 2.197800 ms (FindLiveObjects: 0.217900 ms CreateObjectMapping: 0.057000 ms MarkObjects: 1.804700 ms  DeleteObjects: 0.116800 ms)
+Total: 3.398900 ms (FindLiveObjects: 0.196600 ms CreateObjectMapping: 0.064000 ms MarkObjects: 3.058000 ms  DeleteObjects: 0.078900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_63.asset
-  artifactKey: Guid(d6ab5223616558546b4c644a2967c8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_63.asset using Guid(d6ab5223616558546b4c644a2967c8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907d62d6842c5755d14f524337932467') in 0.411723 seconds
-  Import took 0.415037 seconds .
+  path: Assets/Items/#1 - Transparent Icons.png
+  artifactKey: Guid(cb70f6d8d6908e248817bc3b571aa077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/#1 - Transparent Icons.png using Guid(cb70f6d8d6908e248817bc3b571aa077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdf79436bb8d4b266841304e0358794') in 0.684060 seconds
+  Import took 0.688585 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000490 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_4.asset
-  artifactKey: Guid(ff5ea6bde6f9b6a43ad53a3219714f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_4.asset using Guid(ff5ea6bde6f9b6a43ad53a3219714f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c128a4df27520b6a54a4ba36bce27ba3') in 0.009284 seconds
-  Import took 0.012632 seconds .
+  Time since last request: 52.352489 seconds.
+  path: Assets/Items/#1 - Transparent Icons.png
+  artifactKey: Guid(cb70f6d8d6908e248817bc3b571aa077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/#1 - Transparent Icons.png using Guid(cb70f6d8d6908e248817bc3b571aa077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a409bfb921ed3f56243695c4f3069f37') in 0.506353 seconds
+  Import took 0.511791 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_36.asset
-  artifactKey: Guid(1eaf384f92ef18040ac62ceaa13df886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_36.asset using Guid(1eaf384f92ef18040ac62ceaa13df886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a614531b7107efe56bd2c5887f1710a9') in 0.007573 seconds
-  Import took 0.011371 seconds .
+  Time since last request: 17.044375 seconds.
+  path: Assets/Items/#1 - Transparent Icons.png
+  artifactKey: Guid(cb70f6d8d6908e248817bc3b571aa077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/#1 - Transparent Icons.png using Guid(cb70f6d8d6908e248817bc3b571aa077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac1b4bb4de0d13b4a9158cdfec4d4f7') in 0.599370 seconds
+  Import took 0.604085 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_28.asset
-  artifactKey: Guid(508faef4040a5404687d303ed35490a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_28.asset using Guid(508faef4040a5404687d303ed35490a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6731801c25baf0e6ea7216d1ca5d637') in 0.009710 seconds
-  Import took 0.013400 seconds .
+  Time since last request: 154.986529 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(4327ac92dff55494e9bafab1ff814a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(4327ac92dff55494e9bafab1ff814a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e11410f27ae7f672b44cac187b7861') in 0.002437 seconds
+  Import took 0.006701 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_42.asset
-  artifactKey: Guid(1162bf50cc7ca1849a153277e4b84c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_42.asset using Guid(1162bf50cc7ca1849a153277e4b84c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc6ba4f6dd431e329c7d489878a0dd0') in 0.007428 seconds
-  Import took 0.010363 seconds .
+  Time since last request: 15.639497 seconds.
+  path: Assets/Scripts/Movement.cs
+  artifactKey: Guid(634ab04af9a3d31478ecd9187c9a8ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement.cs using Guid(634ab04af9a3d31478ecd9187c9a8ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ad79d35f73bf22d506a4c806f4bbc7') in 0.007745 seconds
+  Import took 0.011607 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_27.asset
-  artifactKey: Guid(005cfdd8a332aee40a0a72e107d73540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_27.asset using Guid(005cfdd8a332aee40a0a72e107d73540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa366868b90cc93d99ac359cb72fa2c') in 0.006553 seconds
-  Import took 0.009361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_22.asset
-  artifactKey: Guid(c89d6ef071f28c14a9b30a206bd63da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_22.asset using Guid(c89d6ef071f28c14a9b30a206bd63da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97cc20ce09674ead36275af279ea235f') in 0.006364 seconds
-  Import took 0.009336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_29.asset
-  artifactKey: Guid(0facf2a781759c148934cd689e3a1d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_29.asset using Guid(0facf2a781759c148934cd689e3a1d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae629ca7c58821df231126ffd8578a52') in 0.008232 seconds
-  Import took 0.011130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_21.asset
-  artifactKey: Guid(9c7bfe1c419e7b94a91ad93169266980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_21.asset using Guid(9c7bfe1c419e7b94a91ad93169266980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae513801d6dd35ba93ed2319826a6c5') in 0.007066 seconds
-  Import took 0.010117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_49.asset
-  artifactKey: Guid(2f2364a352333ee478da606722892de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_49.asset using Guid(2f2364a352333ee478da606722892de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008422dd22198a51122ebd69d178647d') in 0.008137 seconds
-  Import took 0.010949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_73.asset
-  artifactKey: Guid(b6958755c035fde43bc7bdce04117f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_73.asset using Guid(b6958755c035fde43bc7bdce04117f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c637347d2c415726c64a30cd6935c5b') in 0.007225 seconds
-  Import took 0.009950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_47.asset
-  artifactKey: Guid(2a3d36d04cb280d4c83b83bbf834173a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_47.asset using Guid(2a3d36d04cb280d4c83b83bbf834173a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc0de9509a8ba351a88ed4975d55502') in 0.006770 seconds
-  Import took 0.010562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_52.asset
-  artifactKey: Guid(8e13eca3ee4241e46b79ff4f31e2f94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_52.asset using Guid(8e13eca3ee4241e46b79ff4f31e2f94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54138e4a93b39afebf148ce4eabfab5') in 0.006604 seconds
-  Import took 0.009658 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_9.asset
-  artifactKey: Guid(1d6f50f1005143041a0163bbc23345a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_9.asset using Guid(1d6f50f1005143041a0163bbc23345a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0d73acb92182a8757cf54bf845ebd0') in 0.006953 seconds
-  Import took 0.009697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_53.asset
-  artifactKey: Guid(6fee3933f2a184c49b322169f9b9d990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_53.asset using Guid(6fee3933f2a184c49b322169f9b9d990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df960da3d466d7adb730de5118eeb6f') in 0.006341 seconds
-  Import took 0.009018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_59.asset
-  artifactKey: Guid(f8107eb3fc671184f88e9d4976bcab44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_59.asset using Guid(f8107eb3fc671184f88e9d4976bcab44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b18b35126066fe51de6404cade6db4f') in 0.006602 seconds
-  Import took 0.010047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_64.asset
-  artifactKey: Guid(977f1ea21a10ed24eb9fe1d16c696648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_64.asset using Guid(977f1ea21a10ed24eb9fe1d16c696648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ce360ce227bfb0c562eef7796277cb') in 0.006678 seconds
-  Import took 0.009573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_54.asset
-  artifactKey: Guid(157ccdb9e8be0af458328fbe54bb71c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_54.asset using Guid(157ccdb9e8be0af458328fbe54bb71c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e57dc458473887cff93aa5e7f0a28f') in 0.007142 seconds
-  Import took 0.011127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_15.asset
-  artifactKey: Guid(322d9d9abaa54e04bb1949f5d05a4cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_15.asset using Guid(322d9d9abaa54e04bb1949f5d05a4cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed0faf8556633372be8d35fd5ef8434') in 0.007718 seconds
-  Import took 0.011972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_38.asset
-  artifactKey: Guid(5941ebb294eeed54bb961c9f1889a39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_38.asset using Guid(5941ebb294eeed54bb961c9f1889a39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13f2cf0b414433ffab213136621586f') in 0.009114 seconds
-  Import took 0.013386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_57.asset
-  artifactKey: Guid(372b35f08d91f364d8fed5d47b9d61ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_57.asset using Guid(372b35f08d91f364d8fed5d47b9d61ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c4d563bd8fe7af1e2fff0c84c8873c') in 0.007379 seconds
-  Import took 0.011163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_3.asset
-  artifactKey: Guid(0520b406fc7066843842f8943e37578f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_3.asset using Guid(0520b406fc7066843842f8943e37578f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be836b21831de01181b31201b02d034') in 0.008401 seconds
-  Import took 0.012088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_26.asset
-  artifactKey: Guid(99d196d39c574744c8625cdf749665d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_26.asset using Guid(99d196d39c574744c8625cdf749665d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e962b943959d57b7d69bda8841b20d77') in 0.007518 seconds
-  Import took 0.011312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_33.asset
-  artifactKey: Guid(a4a91f583bcea184aa3d3fceb1175198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_33.asset using Guid(a4a91f583bcea184aa3d3fceb1175198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdce1c5dbc3d72f27489fe359bc3c02') in 0.008569 seconds
-  Import took 0.012773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_51.asset
-  artifactKey: Guid(783bdb5762778354da258a9fd7755095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_51.asset using Guid(783bdb5762778354da258a9fd7755095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e020f02489d1adfa200e8e27a43ff8') in 0.008862 seconds
-  Import took 0.012218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_45.asset
-  artifactKey: Guid(bf99f66c40131354699d135a99ef1a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_45.asset using Guid(bf99f66c40131354699d135a99ef1a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4200211c0eb330a1d767242be16816c') in 0.007568 seconds
-  Import took 0.012303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_7.asset
-  artifactKey: Guid(0234a5f1b68dd9e46bf30abc91306c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_7.asset using Guid(0234a5f1b68dd9e46bf30abc91306c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd15cd92d37fdc549f3ccac94a111ee') in 0.009090 seconds
-  Import took 0.012173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_2.asset
-  artifactKey: Guid(e67bda36a0b45ee478bdcb04084e8bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_2.asset using Guid(e67bda36a0b45ee478bdcb04084e8bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175b636b44f8a97fb35ca749aab91626') in 0.007550 seconds
-  Import took 0.010896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_11.asset
-  artifactKey: Guid(5a133270e057bf24783b429309ba670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_11.asset using Guid(5a133270e057bf24783b429309ba670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5912c06e7e23902bd3a1d7967ec5fa3a') in 0.007692 seconds
-  Import took 0.010977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_31.asset
-  artifactKey: Guid(0b3215ff2254f3c40866469783980936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_31.asset using Guid(0b3215ff2254f3c40866469783980936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc0e0aed39db85aa8fce4d4a47b9b60') in 0.006796 seconds
-  Import took 0.010421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_13.asset
-  artifactKey: Guid(f0e61b46cb2c67e40b6ee27c65674ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_13.asset using Guid(f0e61b46cb2c67e40b6ee27c65674ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb5afa296f506e1d63445eadd70c3c5') in 0.008015 seconds
-  Import took 0.011478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_74.asset
-  artifactKey: Guid(3db377d8294e18e44aa3a8bfd770494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_74.asset using Guid(3db377d8294e18e44aa3a8bfd770494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdab5c3e137318baf2fb76a580e9007') in 0.009062 seconds
-  Import took 0.012427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_58.asset
-  artifactKey: Guid(39b7380145a7e1d4793a8d6e9a6b8dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_58.asset using Guid(39b7380145a7e1d4793a8d6e9a6b8dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b4acdcbcd50059f15763529fc7304e') in 0.006631 seconds
-  Import took 0.009528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_77.asset
-  artifactKey: Guid(8fb26e3057bc0364db19d0eeab453775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_77.asset using Guid(8fb26e3057bc0364db19d0eeab453775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f61f53d99d1290144e4826b2dfc639') in 0.007884 seconds
-  Import took 0.011441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Ground.prefab
-  artifactKey: Guid(ee6e7b5a9c7501a41bd8111d86f2740e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Ground.prefab using Guid(ee6e7b5a9c7501a41bd8111d86f2740e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40946018efa392097c8f3392a1df858') in 0.010823 seconds
-  Import took 0.014141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_40.asset
-  artifactKey: Guid(1b2474a70b2c02244a8167d4643fcde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_40.asset using Guid(1b2474a70b2c02244a8167d4643fcde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325b7a1086e9c7907c0f70ed70516f77') in 0.009443 seconds
-  Import took 0.012960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_68.asset
-  artifactKey: Guid(e02fdab697a0f874c8fe2b058b11e183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_68.asset using Guid(e02fdab697a0f874c8fe2b058b11e183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6ed3df657ea23c3b3a5011ad7f0d1c') in 0.006761 seconds
-  Import took 0.009846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000490 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_12.asset
-  artifactKey: Guid(ac8b8588d368ad343b0c21481b60c3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_12.asset using Guid(ac8b8588d368ad343b0c21481b60c3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9cc41a1d132e94f69fb564a66d16e59') in 0.007675 seconds
-  Import took 0.011144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_62.asset
-  artifactKey: Guid(c76298a0ca7c27340af15ca2ebd6aece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_62.asset using Guid(c76298a0ca7c27340af15ca2ebd6aece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9655e5cc59d613e5ae37aff3a7d6325') in 0.009069 seconds
-  Import took 0.012512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_55.asset
-  artifactKey: Guid(239eb448fd387e940bc9befaeeeb91d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_55.asset using Guid(239eb448fd387e940bc9befaeeeb91d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f30b5b4043da6f6db7549021f9a312d') in 0.008384 seconds
-  Import took 0.011978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_71.asset
-  artifactKey: Guid(b073f7f37eb110a498edd25d73235619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_71.asset using Guid(b073f7f37eb110a498edd25d73235619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ade4a332bc42887aa839c4d4da47b57') in 0.009405 seconds
-  Import took 0.012873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_76.asset
-  artifactKey: Guid(4aab987f422ac2d44bf8a3dd4054eeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_76.asset using Guid(4aab987f422ac2d44bf8a3dd4054eeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77985618958173e30b7fa7b2abd74b39') in 0.008798 seconds
-  Import took 0.012402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_78.asset
-  artifactKey: Guid(7bbab66675952f74bac4123b7ec47e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_78.asset using Guid(7bbab66675952f74bac4123b7ec47e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905aab9ea25670d15307c1b2a857de84') in 0.007796 seconds
-  Import took 0.011288 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001032 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.985 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.1 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_25.asset
-  artifactKey: Guid(144837f6766fb0b4395575cd37d5a257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_25.asset using Guid(144837f6766fb0b4395575cd37d5a257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a444d9d4d2b4855cf2517261e9411b39') in 0.007185 seconds
-  Import took 0.011605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_61.asset
-  artifactKey: Guid(327093c6c9b22724d9c941f9bb0f73a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_61.asset using Guid(327093c6c9b22724d9c941f9bb0f73a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f787c8207224ac5877c9ef1af0b194e') in 0.008254 seconds
-  Import took 0.011434 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_19.asset
-  artifactKey: Guid(bb6e6299c4be1fd4d8a79c455d5c3c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_19.asset using Guid(bb6e6299c4be1fd4d8a79c455d5c3c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909aa23ea6eb848b10184d055eae98e2') in 0.009415 seconds
-  Import took 0.012881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_41.asset
-  artifactKey: Guid(bfee613d7143637499ab51e4e3632dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_41.asset using Guid(bfee613d7143637499ab51e4e3632dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617ef087b4a6327dad74ae527d7029dd') in 0.007063 seconds
-  Import took 0.010115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_67.asset
-  artifactKey: Guid(7b434a31d8409de438d962fd8ad1af55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_67.asset using Guid(7b434a31d8409de438d962fd8ad1af55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbe10dd2bff1f1a9d13441179d3b10c') in 0.007266 seconds
-  Import took 0.010637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_6.asset
-  artifactKey: Guid(c78b89ee98daf694099a18bc4f20981c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_6.asset using Guid(c78b89ee98daf694099a18bc4f20981c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2566b6193342f20af4fd7fb5326a840') in 0.008273 seconds
-  Import took 0.011707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_39.asset
-  artifactKey: Guid(a6bc0aa01feb3fe4d9ebb522c7c1f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_39.asset using Guid(a6bc0aa01feb3fe4d9ebb522c7c1f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c046d4dc0344fe3f0e5225df59a4b9') in 0.007032 seconds
-  Import took 0.010857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_65.asset
-  artifactKey: Guid(9eeed348b0cbdee4a8e55df74bb8079a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_65.asset using Guid(9eeed348b0cbdee4a8e55df74bb8079a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8691be695e50f28ebf569be36dba29') in 0.008129 seconds
-  Import took 0.012285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_46.asset
-  artifactKey: Guid(2719764870d6b29409be9e0ffdaeb17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_46.asset using Guid(2719764870d6b29409be9e0ffdaeb17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2c38c9bb27f1029c7701ef012b6eea') in 0.007265 seconds
-  Import took 0.011097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_20.asset
-  artifactKey: Guid(82275e0e810a791489dfa2c2466a6f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_20.asset using Guid(82275e0e810a791489dfa2c2466a6f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a334d48d583886688c461a76929c30') in 0.008870 seconds
-  Import took 0.012737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_34.asset
-  artifactKey: Guid(039954476b0839047a7126e4171c4314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_34.asset using Guid(039954476b0839047a7126e4171c4314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d35a9a941f8c36696fa15161f0250f') in 0.008930 seconds
-  Import took 0.012830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_8.asset
-  artifactKey: Guid(ef4851936f1adb743add7abb628b5810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_8.asset using Guid(ef4851936f1adb743add7abb628b5810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431d1f9430d4a2c3f468f08bcbf50ec3') in 0.006931 seconds
-  Import took 0.010513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_5.asset
-  artifactKey: Guid(1fdddedc1c7a5c4459861b88cf4d53d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_5.asset using Guid(1fdddedc1c7a5c4459861b88cf4d53d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f260fdd73468e4c4dc55fe1c8eec0aad') in 0.008662 seconds
-  Import took 0.011942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_24.asset
-  artifactKey: Guid(2fa613e7c84988d419633ee38a612067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_24.asset using Guid(2fa613e7c84988d419633ee38a612067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34de0a73921b669f1c0c0d1972d95d54') in 0.007589 seconds
-  Import took 0.011106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_35.asset
-  artifactKey: Guid(ea4b279a74e8583418ddcad4160ba7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_35.asset using Guid(ea4b279a74e8583418ddcad4160ba7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9378bdfc27e834bdebbd0bfe891150') in 0.010270 seconds
-  Import took 0.013825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_43.asset
-  artifactKey: Guid(12931a1cf1c577d40a48fc4afe287b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_43.asset using Guid(12931a1cf1c577d40a48fc4afe287b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab30115f18b5fa0d6420d628ac3464a') in 0.007666 seconds
-  Import took 0.010742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_30.asset
-  artifactKey: Guid(14305c4a803ecb64bad06cd384b24498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_30.asset using Guid(14305c4a803ecb64bad06cd384b24498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d442eef78a3e87f6ec1d57790bc018') in 0.007786 seconds
-  Import took 0.011506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_1.asset
-  artifactKey: Guid(2b7722dafb1c2ac46984dcab950f52ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_1.asset using Guid(2b7722dafb1c2ac46984dcab950f52ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18c0fd40e77b74e4d36a2206f91f9c6') in 0.007778 seconds
-  Import took 0.010901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_70.asset
-  artifactKey: Guid(d37139fc42a5e3e42813eb1205294c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_70.asset using Guid(d37139fc42a5e3e42813eb1205294c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828f29a5f8d88dfd15457363ff848269') in 0.008410 seconds
-  Import took 0.011910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_66.asset
-  artifactKey: Guid(5fcfcc87220827244abf19addf394297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_66.asset using Guid(5fcfcc87220827244abf19addf394297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d933d2d378d23a4095e8b516a225b2') in 0.008327 seconds
-  Import took 0.011883 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_14.asset
-  artifactKey: Guid(c103c7fa6a3c3ca4d8481ead5eb9ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_14.asset using Guid(c103c7fa6a3c3ca4d8481ead5eb9ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9448df3e1f71d282c95403e390b008a') in 0.007909 seconds
-  Import took 0.011369 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_0.asset
-  artifactKey: Guid(798aa2ac00423fa43a6bca8a54145be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_0.asset using Guid(798aa2ac00423fa43a6bca8a54145be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74660d155e8fbb5aea0d04568df503b0') in 0.008076 seconds
-  Import took 0.011792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_69.asset
-  artifactKey: Guid(67a58b5247aac1547bc006ab8061a9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_69.asset using Guid(67a58b5247aac1547bc006ab8061a9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5df17cbf417efcbd9be887a0716d4a') in 0.007044 seconds
-  Import took 0.010549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_72.asset
-  artifactKey: Guid(e40ff0d84e8d6614db524f3adf6455f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_72.asset using Guid(e40ff0d84e8d6614db524f3adf6455f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d0b2a60400ddbc4c2892790d63bd0a') in 0.007623 seconds
-  Import took 0.010893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_79.asset
-  artifactKey: Guid(8f6512919e6180548a3e41523b94d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_79.asset using Guid(8f6512919e6180548a3e41523b94d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee6287fdcdc649901000ed60c6204f9') in 0.007351 seconds
-  Import took 0.010716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_10.asset
-  artifactKey: Guid(48b75550780a0b34a9df9bbd94f1d068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_10.asset using Guid(48b75550780a0b34a9df9bbd94f1d068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093f17309244935f269d4a676c1048ad') in 0.464653 seconds
-  Import took 0.468216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_17.asset
-  artifactKey: Guid(29e4f82f75d90f14aaa31b09ae3c0306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_17.asset using Guid(29e4f82f75d90f14aaa31b09ae3c0306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1b4415c176880b4d7c65d68a7215f8') in 0.006637 seconds
-  Import took 0.010223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_37.asset
-  artifactKey: Guid(826418490ecf492478d686bb5033ceff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_37.asset using Guid(826418490ecf492478d686bb5033ceff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8826671981050ac9f3fa5aa0c9d7872a') in 0.009918 seconds
-  Import took 0.014893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_60.asset
-  artifactKey: Guid(6e5af2273e0a2de43bbe858fb7107fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_60.asset using Guid(6e5af2273e0a2de43bbe858fb7107fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c77632a36b096dae6466ddb1b9dcb0b') in 0.007467 seconds
-  Import took 0.010893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_23.asset
-  artifactKey: Guid(6857bdae35b58364395c5d355ffa93f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_23.asset using Guid(6857bdae35b58364395c5d355ffa93f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2432748536fd67ac50c70a56de47c8') in 0.009945 seconds
-  Import took 0.013436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_16.asset
-  artifactKey: Guid(c50d19a318613b64f9efc271098f79c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_16.asset using Guid(c50d19a318613b64f9efc271098f79c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a881fde743361e3c0511b40129791c') in 0.009320 seconds
-  Import took 0.013089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_32.asset
-  artifactKey: Guid(b5d37e4fd99bfec4ab2d5984835535ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_32.asset using Guid(b5d37e4fd99bfec4ab2d5984835535ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad978a185e30fb128251afa93b2d6f3') in 0.007278 seconds
-  Import took 0.010958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_48.asset
-  artifactKey: Guid(7706a912c5f352649b1ba113232734ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_48.asset using Guid(7706a912c5f352649b1ba113232734ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a3fe23a06cd01da79bb910cddf0a6b') in 0.009337 seconds
-  Import took 0.013637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_50.asset
-  artifactKey: Guid(dd2e13d41afb8af47b828594f7fd833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_50.asset using Guid(dd2e13d41afb8af47b828594f7fd833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f50dcd5c75d25837c683b3234d6035') in 0.007038 seconds
-  Import took 0.010981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_56.asset
-  artifactKey: Guid(1ab78aeed2b300f49bf540f78da0f0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_56.asset using Guid(1ab78aeed2b300f49bf540f78da0f0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d28795dd2302eef66f7ba9d1d0cb230') in 0.008655 seconds
-  Import took 0.012504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000439 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_18.asset
-  artifactKey: Guid(e9e9f411c54983d4d8d22270beef3127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_18.asset using Guid(e9e9f411c54983d4d8d22270beef3127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b372b8a6b241768bd3a2a749580439') in 0.008355 seconds
-  Import took 0.012175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_75.asset
-  artifactKey: Guid(e6f127b7d467aa94fb6462f1e7fa2579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_75.asset using Guid(e6f127b7d467aa94fb6462f1e7fa2579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3b7aa477b160c958f92f9280d799d4') in 0.008178 seconds
-  Import took 0.011907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_44.asset
-  artifactKey: Guid(5569c4fc861174243814ebac11e58e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TilePalette/MossyTileset_Ground/Mossy - TileSet_44.asset using Guid(5569c4fc861174243814ebac11e58e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ec314ea8062993b338f9445ca07891') in 0.007487 seconds
-  Import took 0.011223 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2467.
+Total: 2.723800 ms (FindLiveObjects: 0.309200 ms CreateObjectMapping: 0.113200 ms MarkObjects: 2.266800 ms  DeleteObjects: 0.033200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
