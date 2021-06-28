@@ -21,6 +21,7 @@ public class CoinSpawner : MonoBehaviour
         }
 
     }
+
     private void Update()
     {
         _spawnTimer += Time.deltaTime;
@@ -30,6 +31,5 @@ public class CoinSpawner : MonoBehaviour
             Coin coin = Instantiate(_template, _spawnPoints[_index]);
             _spawnTimer = 0;
         }
-
     }
 }

@@ -18,7 +18,6 @@ public class AnimationSwitcher : MonoBehaviour
         _movement = GetComponent<PlayerMovement>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         _animator.SetFloat("Speed", _movement.DeltaPosition.magnitude);
