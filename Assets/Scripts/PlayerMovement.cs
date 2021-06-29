@@ -58,7 +58,6 @@ public class PlayerMovement : MonoBehaviour
         {
             DeltaPosition = Vector2.right * _speed * Time.deltaTime;
             _rigidbody2D.position = _rigidbody2D.position + DeltaPosition;
-            
         }
         if (Input.GetKey(KeyCode.Space) && _grounded)
         {

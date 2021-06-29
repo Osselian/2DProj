@@ -17,6 +17,7 @@ public class LinearColorChanger : MonoBehaviour
         Target = GetComponent<SpriteRenderer>();
         _startColor = Target.color;
     }
+
     private void Update()
     {
         if(_runningTime <= _duration)
