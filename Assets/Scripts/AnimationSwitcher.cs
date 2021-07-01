@@ -5,6 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(PlayerMovement))]
+
 public class AnimationSwitcher : MonoBehaviour
 {
     private PlayerMovement _movement;

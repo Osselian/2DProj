@@ -5,10 +5,9 @@ using DG.Tweening;
 using UnityEngine.Events;
 
 [RequireComponent(typeof(Rigidbody2D))]
+
 public class PlayerMovement : MonoBehaviour
 {    
-    public Vector2  DeltaPosition { get; private set; }
-
     [SerializeField] private float _speed;
     [SerializeField] private float _jumpForce;  
     [SerializeField] private float _minGroundNormalY = .65f;
@@ -16,9 +15,11 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D _rigidbody2D;
     private Vector2 _velocity;
-    private RaycastHit2D[] hitBuffer = new RaycastHit2D[16];
-    private List<RaycastHit2D> hitBufferList = new List<RaycastHit2D>(16);    
-    private float _minimumJumpDistance = 0.25f;    
+    private RaycastHit2D[] _hitBuffer = new RaycastHit2D[16];
+    private List<RaycastHit2D> _hitBufferList = new List<RaycastHit2D>(16);    
+    private float _minimumJumpDistance = 0.25f;
+
+    public Vector2 DeltaPosition { get; private set; }
 
     private void Start()
     {
@@ -31,18 +32,18 @@ public class PlayerMovement : MonoBehaviour
         _grounded = false;
         DeltaPosition = Vector2.zero;
         
-        int count = _rigidbody2D.Cast(Vector2.down, hitBuffer, _minimumJumpDistance);
+        int count = _rigidbody2D.Cast(Vector2.down, _hitBuffer, _minimumJumpDistance);
 
-        hitBufferList.Clear();
+        _hitBufferList.Clear();
 
         for (int i = 0; i < count; i++)
         {
-            hitBufferList.Add(hitBuffer[i]);
+            _hitBufferList.Add(_hitBuffer[i]);
         }
 
-        for (int i = 0; i < hitBufferList.Count; i++)
+        for (int i = 0; i < _hitBufferList.Count; i++)
         {
-            Vector2 currentNormal = hitBufferList[i].normal;
+            Vector2 currentNormal = _hitBufferList[i].normal;
             if (currentNormal.y > _minGroundNormalY)
             {
                 _grounded = true;

@@ -3,19 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
+
 public class LinearColorChanger : MonoBehaviour
 {
     [SerializeField] private float _duration;
     [SerializeField] private Color _targetColor;
     
-    private SpriteRenderer Target;
+    private SpriteRenderer _target;
     private float _runningTime;
     private Color _startColor;
 
     private void Start()
     {
-        Target = GetComponent<SpriteRenderer>();
-        _startColor = Target.color;
+        _target = GetComponent<SpriteRenderer>();
+        _startColor = _target.color;
     }
 
     private void Update()
@@ -26,7 +27,7 @@ public class LinearColorChanger : MonoBehaviour
 
             float normalizeRunningTime = _runningTime / _duration;
 
-            Target.color = Color.Lerp(_startColor, _targetColor, normalizeRunningTime);
+            _target.color = Color.Lerp(_startColor, _targetColor, normalizeRunningTime);
         }
     }
 }
