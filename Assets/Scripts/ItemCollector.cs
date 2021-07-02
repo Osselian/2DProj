@@ -5,13 +5,13 @@ using UnityEngine.Events;
 
 public class ItemCollector : MonoBehaviour
 {
-    [SerializeField] public UnityEvent _collect;
+    [SerializeField] public UnityEvent Collected;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.TryGetComponent<PlayerMovement>(out PlayerMovement playerMovement))
         {
-            _collect.Invoke();
+            Collected.Invoke();
             Destroy(gameObject);
         }
     }

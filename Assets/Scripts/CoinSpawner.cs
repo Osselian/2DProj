@@ -9,7 +9,7 @@ public class CoinSpawner : MonoBehaviour
 
     private Transform[] _spawnPoints;
     private int _index;
-    private float _spawnTimer;
+    private float _timePassed;
 
     private void Start()
     {
@@ -19,17 +19,16 @@ public class CoinSpawner : MonoBehaviour
         {
             _spawnPoints[i] = transform.GetChild(i);
         }
-
     }
 
     private void Update()
     {
-        _spawnTimer += Time.deltaTime;
-        if (_spawnTimer > _spawnTime)
+        _timePassed += Time.deltaTime;
+        if (_timePassed > _spawnTime)
         {
             _index = Random.Range(0, _spawnPoints.Length);
             Coin coin = Instantiate(_template, _spawnPoints[_index]);
-            _spawnTimer = 0;
+            _timePassed = 0;
         }
     }
 }
